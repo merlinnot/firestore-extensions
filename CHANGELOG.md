@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/merlinnot/firestore-extensions/compare/v1.0.3...v1.0.4) (2021-05-31)
+
+### Build System
+
+- provide exports for subscriptions
+  ([dce50ba](https://github.com/merlinnot/firestore-extensions/commit/dce50ba51015228e993bf986d624cd5ddda8636b))
+
 ## [1.0.3](https://github.com/merlinnot/firestore-extensions/compare/v1.0.2...v1.0.3) (2021-05-31)
 
 ### Continuous Integration
