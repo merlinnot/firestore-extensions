@@ -16,6 +16,38 @@ A collection of Firestore utilities.
 npm install @merlinnot/firestore-extensions
 ```
 
+### TypeScript
+
+This library defines
+[multiple entry points](https://nodejs.org/api/packages.html#packages_package_entry_points),
+which is
+[not yet supported](https://github.com/microsoft/TypeScript/issues/33079) by
+TypeScript. To work around this limitation, either:
+
+1. Manually specify import paths (choose `cjs` or `mjs` in your path depending
+   on which flavor you use).
+
+   ```json
+   {
+     "compilerOptions": {
+       "paths": {
+         "@merlinnot/firestore-extensions/ids": [
+           "./node_modules/@merlinnot/firestore-extensions/lib/cjs/ids/index.js"
+         ],
+         "@merlinnot/firestore-extensions/subscriptions": [
+           "./node_modules/@merlinnot/firestore-extensions/lib/cjs/subscriptions/index.js"
+         ]
+       }
+     }
+   }
+   ```
+
+2. Use only the main entry point.
+
+   ```typescript
+   import { ids, subscriptions } from '@merlinnot/firestore-extensions'`
+   ```
+
 ### Usage
 
 #### Firestore ID to UUID converter

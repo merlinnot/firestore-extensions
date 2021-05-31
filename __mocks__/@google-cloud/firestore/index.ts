@@ -1,6 +1,6 @@
 /* eslint-disable immutable/no-mutation, max-classes-per-file */
 
-import * as firestore from '@google-cloud/firestore';
+import firestore from '@google-cloud/firestore';
 import { credentials } from '@grpc/grpc-js';
 
 import {

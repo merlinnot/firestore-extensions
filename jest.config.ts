@@ -17,20 +17,11 @@ const configuration: Config.InitialOptions = {
     },
   },
   forceExit: true,
-  globals: {
-    'ts-jest': {
-      diagnostics: false,
-      isolatedModules: true,
-      tsconfig: 'tsconfig.json',
-    },
-  },
   logHeapUsage: true,
-  preset: 'ts-jest',
   restoreMocks: true,
   roots: ['<rootDir>/__mocks__', '<rootDir>/src'],
   setupFilesAfterEnv: ['<rootDir>/test/setup.ts'],
   testEnvironment: 'node',
-  testRunner: 'jest-circus/runner',
 };
 
 export default configuration;
