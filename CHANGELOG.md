@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/merlinnot/firestore-extensions/compare/v1.0.2...v1.0.3) (2021-05-31)
+
+### Continuous Integration
+
+- set a valid token for the Merge Me! Action
+  ([8475cc7](https://github.com/merlinnot/firestore-extensions/commit/8475cc72dd9cb6e28038926b2e76dbc7b100c549))
+
 ## [1.0.2](https://github.com/merlinnot/firestore-extensions/compare/v1.0.1...v1.0.2) (2021-05-31)
 
 ### Continuous Integration
