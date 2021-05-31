@@ -39,6 +39,10 @@
     "npm": ">=7"
   },
   "exports": {
+    ".": {
+      "import": "./lib/esm/index.js",
+      "require": "./lib/cjs/index.js"
+    },
     "./ids": {
       "import": "./lib/esm/ids/index.js",
       "require": "./lib/cjs/ids/index.js"
@@ -83,5 +87,6 @@
     "test:watch": "jest --watch --verbose false",
     "types": "tsc --noEmit"
   },
+  "type": "module",
   "version": "1.0.4"
 }
