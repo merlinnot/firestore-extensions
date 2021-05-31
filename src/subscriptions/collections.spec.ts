@@ -5,9 +5,6 @@ import { PROJECT_ID } from '../../test/configuration';
 import { Collection } from './collections';
 import type { ToNativeDocument } from './types';
 
-// See https://issuetracker.google.com/issues/184565314.
-jest.retryTimes(5);
-
 /*
  * Test utilities
  */
