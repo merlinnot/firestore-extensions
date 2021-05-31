@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/merlinnot/firestore-extensions/compare/v1.0.5...v1.0.6) (2021-05-31)
+
+### Chores
+
+- add funding configuration
+  ([543e6e0](https://github.com/merlinnot/firestore-extensions/commit/543e6e0db23e75e99c4508b3ed9f077626d5f3f0))
+
 ## [1.0.5](https://github.com/merlinnot/firestore-extensions/compare/v1.0.4...v1.0.5) (2021-05-31)
 
 ### Documentation
