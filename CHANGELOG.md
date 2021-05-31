@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/merlinnot/firestore-extensions/compare/v1.0.1...v1.0.2) (2021-05-31)
+
+### Continuous Integration
+
+- fix all jobs
+  ([ce8e1d2](https://github.com/merlinnot/firestore-extensions/commit/ce8e1d28bda9d7572f7b7845f541a2437c6b17ee))
+
 ## [1.0.1](https://github.com/merlinnot/firestore-extensions/compare/v1.0.0...v1.0.1) (2021-05-31)
 
 ### Continuous Integration
