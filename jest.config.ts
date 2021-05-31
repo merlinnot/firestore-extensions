@@ -6,7 +6,7 @@ import type { Config } from '@jest/types';
 const configuration: Config.InitialOptions = {
   cacheDirectory: '<rootDir>/.cache/jest',
   coveragePathIgnorePatterns: ['/node_modules/', '/test/'],
-  coverageProvider: 'babel',
+  coverageProvider: 'v8',
   coverageReporters: ['lcov', 'text', 'text-summary'],
   coverageThreshold: {
     global: {
