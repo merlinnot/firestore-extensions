@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/merlinnot/firestore-extensions/compare/v1.0.4...v1.0.5) (2021-05-31)
+
+### Documentation
+
+- specify import usage with TypeScript
+  ([37bd7c8](https://github.com/merlinnot/firestore-extensions/commit/37bd7c831fcbf5168a35a7831cfa964e5de75cef))
+
 ## [1.0.4](https://github.com/merlinnot/firestore-extensions/compare/v1.0.3...v1.0.4) (2021-05-31)
 
 ### Build System
