@@ -1,6 +1,6 @@
 # firestore-extensions
 
-[![Coverage Status](https://coveralls.io/repos/github/merlinnot/firestore-extensions/badge.svg?branch=master&t=6tldvN)](https://coveralls.io/github/merlinnot/firestore-extensions?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/merlinnot/firestore-extensions/badge.svg?branch=master)](https://coveralls.io/github/merlinnot/firestore-extensions?branch=master)
 [![GitHub Actions Status](https://github.com/merlinnot/firestore-extensions/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/merlinnot/firestore-extensions/actions)
 [![GitHub Actions Status](https://github.com/merlinnot/firestore-extensions/workflows/Continuous%20Delivery/badge.svg?branch=master)](https://github.com/merlinnot/firestore-extensions/actions)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
