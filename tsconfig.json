@@ -4,5 +4,10 @@
     "types": ["@types/jest", "@types/node"]
   },
   "extends": "./tsconfig.production.json",
-  "include": ["./__mocks__/**/*.ts", "./jest.config.ts", "./src/**/*.ts"]
+  "include": [
+    "./__mocks__/**/*.ts",
+    "./jest.config.ts",
+    "./src/**/*.ts",
+    "./test/**/*.ts"
+  ]
 }

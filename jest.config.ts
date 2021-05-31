@@ -10,10 +10,10 @@ const configuration: Config.InitialOptions = {
   coverageReporters: ['lcov', 'text', 'text-summary'],
   coverageThreshold: {
     global: {
-      branches: 85,
-      functions: 85,
-      lines: 85,
-      statements: 85,
+      branches: 75,
+      functions: 75,
+      lines: 75,
+      statements: 75,
     },
   },
   forceExit: true,
