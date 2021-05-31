@@ -62,5 +62,5 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         if: steps.release.outputs.released == 'true'
         name: Publish to npm
-        run: npm publish
+        run: npm publish --access public
     timeout-minutes: 10
