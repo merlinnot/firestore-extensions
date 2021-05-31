@@ -59,6 +59,10 @@
     "lib",
     "src"
   ],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/merlinnot"
+  },
   "license": "MIT",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
