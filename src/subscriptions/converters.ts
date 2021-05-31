@@ -1,7 +1,7 @@
 /* eslint-disable immutable/no-mutation, max-statements */
 
 import { GeoPoint, Timestamp } from '@google-cloud/firestore';
-import { strict as assert, strictEqual } from 'assert';
+import { strictEqual } from 'assert';
 
 import { assertNever } from '../common/assertions';
 import type { Canonical, Native, ToNative } from './types';
@@ -69,11 +69,7 @@ const toCanonical = <CanonicalType extends Canonical>(
 const toId = (name: string): string => {
   const parts = name.split('/');
 
-  const id = parts[parts.length - 1];
-
-  assert(id !== undefined, 'Cannot convert name to ID.');
-
-  return id;
+  return parts[parts.length - 1];
 };
 
 const toMilliseconds = ({

@@ -19,6 +19,7 @@
     "CHANGELOG.md",
     "coverage/**",
     "lib/**",
+    "LICENSE",
     "node_modules/**"
   ],
   "language": "en-US",
@@ -31,6 +32,7 @@
     "editorconfig",
     "firestore",
     "grpc",
+    "merlinnot",
     "millis",
     "nanos",
     "prettierignore",
