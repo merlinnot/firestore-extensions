@@ -1,0 +1,46 @@
+{
+  "dictionaries": [
+    "companies",
+    "filetypes",
+    "misc",
+    "node",
+    "npm",
+    "softwareTerms",
+    "typescript"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    ".eslintrc",
+    "*.json",
+    "*.log",
+    "*.yaml",
+    "**/*.json",
+    "**/*.proto",
+    "CHANGELOG.md",
+    "coverage/**",
+    "lib/**",
+    "node_modules/**"
+  ],
+  "language": "en-US",
+  "words": [
+    "assertion",
+    "backoff",
+    "codeowners",
+    "coverallsapp",
+    "dependabot",
+    "editorconfig",
+    "firestore",
+    "grpc",
+    "millis",
+    "nanos",
+    "prettierignore",
+    "prettierrc",
+    "protobuf",
+    "protos",
+    "reimplementing",
+    "releaserc",
+    "retriable",
+    "ridedott",
+    "upsert"
+  ]
+}

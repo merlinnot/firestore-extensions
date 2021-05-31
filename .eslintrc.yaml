@@ -1,0 +1,25 @@
+env:
+  es6: true
+  node: true
+extends: '@ridedott/eslint-config'
+overrides:
+  - env:
+      jest: true
+    files:
+      - __mocks__/**/*.ts
+      - src/**/*.spec.ts
+      - test/**/*.ts
+    rules:
+      '@ridedott/no-single-line-comment-block': off
+      '@typescript-eslint/no-implicit-any-catch': off
+      '@typescript-eslint/no-magic-numbers': off
+      class-methods-use-this: off
+      max-lines-per-function: off
+      max-lines: off
+      max-statements: off
+      no-magic-numbers: off
+      unicorn/consistent-function-scoping: off
+parserOptions:
+  ecmaVersion: 10
+  project: tsconfig.json
+  sourceType: module
