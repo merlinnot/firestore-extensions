@@ -42,6 +42,10 @@
     "./ids": {
       "import": "./lib/esm/ids/index.js",
       "require": "./lib/cjs/ids/index.js"
+    },
+    "./subscriptions": {
+      "import": "./lib/esm/subscriptions/index.js",
+      "require": "./lib/cjs/subscriptions/index.js"
     }
   },
   "files": [
