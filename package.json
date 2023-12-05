@@ -14,7 +14,7 @@
     "@babel/preset-typescript": "^7.13.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@google-cloud/firestore": "^4.12.2",
+    "@google-cloud/firestore": "^6.2.0",
     "@ridedott/eslint-config": "^2.13.30",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.6.1",
@@ -68,7 +68,7 @@
   "module": "./lib/esm/index.js",
   "name": "@merlinnot/firestore-extensions",
   "peerDependencies": {
-    "@google-cloud/firestore": "^4.12.2",
+    "@google-cloud/firestore": "^6.2.0",
     "google-gax": "^2.10.3"
   },
   "private": false,
